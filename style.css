@@ -1,0 +1,416 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 1.4rem;
+   /* line-height: 1.285;*/
+	align-content: center;
+	background-color: white;
+	justify-content: center;
+	font-family:BrandonText-Bold, Arial,sans-serif;
+	
+}
+.box1
+{	align-self: center;
+	alignment-baseline: central;
+	align-content: center;
+	justify-content: center;
+
+width: 100%;
+max-width: 1050px;
+margin: auto;
+margin-right: auto;
+margin-top:67px;
+
+  margin-bottom: 0px;
+
+}
+.box1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.logo
+{
+
+}
+.logotext
+{
+display: inline-block;
+margin-top: 20px;
+}
+.bookmark
+{
+float: right;
+
+display: inline-block;
+}
+.box2out
+{	color: white;
+	align-self: center;
+	alignment-baseline: central;
+	align-content: center;
+height: ;
+margin: 0px;
+
+background-color: #d83230;
+}
+.box2{
+align-self: center;
+	alignment-baseline: central;
+	align-content: center;
+margin: auto;
+width: 990px;
+height: 359.2px;
+max-width: 1050px;	
+
+}
+.login{
+	
+	padding:10px 15px 20px;
+display: inline-block;
+		height: 237px;
+	background-color:#ad2826;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 310px;
+	
+
+}
+
+
+.create_teacher{
+
+		padding:10px 15px 20px;
+		
+		position: relative;
+		top: -257px;	
+		left: 355px;
+		height: 187px;
+		width: 325px;
+	background-color:#ad2826;
+}
+.create_parents{
+		padding:10px 15px 20px;
+		height: 187px;
+		width: 325px;
+
+	background-color:#ad2826;
+	position: relative;
+		top: -475px;	
+		left: 725px;
+		
+}
+
+.box{
+	width:30%;
+	font-size: 80%;
+	margin: 2px;
+	padding: 2px;
+	justify-content: center;
+}
+
+.button{
+	width:280px;
+	float:left;
+	padding:0;
+	height:45px;
+	margin-top:20px;
+	margin-bottom:10px;
+	color: white;
+	border-style: none;
+	font:400 13.3333px Arial;
+	text-rendering: auto;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.orange
+{
+	background: orange;
+}
+.checkbox{
+	
+  background: white;
+  border-style: none;
+  box-decoration-break:all;	
+  border:solid white;
+    box-decoration-break: none;
+    box-sizing: border-box;
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin: 3px;	
+}
+lable{
+	font-size: 10px;
+}
+.box2 a{display: table-footer-group;
+	font-size: 10px;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.bottomborder{
+	
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    height: 20px;
+    background-color: #ad2826;
+}
+.box3{
+	  background:#3abaac url(https://clubs.scholastic.com/on/demandware.static/-/Sites-rco-us-Library/default/dwae73407d/images/banners/sign-in-video-bg.jpg) center center no-repeat;
+       padding-bottom: 15px;
+       backgroud-size:auto;
+       position:relative;
+       box-sizing:border-box;
+       backgroud-size:cover;
+       margin-top: 5px;
+       margin-bottom: 0px;
+       padding-bottom: 0px;
+}
+.box3in{
+	margin: auto;
+	margin-bottom: 0px;
+width: 990px;
+height: 432px;
+max-width: 1050px;	
+padding-bottom: 0px;
+align-items: center;
+
+}
+.box3text{
+	color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px!important;
+    padding: 22px 0px 3px 0px;
+    font-family: BrandonText-Regular, Arial, sans-serif;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 1;
+    font-weight: 400;
+    line-height: 	46.6px;
+    text-align:center;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.video {
+height: 323.400px;
+width: 572.400px;
+
+position: relative;
+top: 0px;
+left: -500px;
+}
+.video img{
+	height: 100%;
+	width: 100%;
+	top: 0px;
+left: -100px;
+
+}
+.box3img{
+margin: 0px;
+padding: 0px;
+position: relative;
+left: 85px;
+    bottom: 231px;
+float: right;
+
+}
+.box4{
+	width: 100%;
+	max-width: 1050px;
+	margin: auto;
+	justify-content: center;
+	
+	height: 296px;
+
+
+
+}
+.box4in{
+	width: 100vw;
+}
+.box4text{
+	font-weight: 400;
+	color: #d83230;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+.box4img{
+	display: inline-flex;
+	margin: auto;
+	
+	
+}
+.box5{
+	height: 490px;
+	background: #f4f1ea;
+    width: 100%;
+    position: relative;
+}
+.box5in{
+	max-width: 1050px;
+	margin: auto;
+}
+.box5video{
+	height: 323.400px;
+width: 572.400px;
+}
+.box5text
+{
+	color:#d83230;
+	font-size:36px;
+	margin-bottom: 15px;
+	font-family:BrandonText-Regular, Arial, sans-serif;
+	padding-top: 20px;
+	text-align:center;
+	justify-content: center;
+	font-weight: 400;
+}
+.box6{
+	margin: 15px;
+	padding: 25px;
+
+}
+.box6in{
+	max-width: 1050px;
+	width: 100%;
+	margin:auto;
+
+}
+.box6body{
+	border-width: 0px 0px 0px 1px;
+	border-style: solid;border-color: red;
+	text-align: center; 
+	width: 262.5px;
+	font-family: BrandonText-Regular, sans-serif;
+    color: #3a3a3a;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px;
+}
+.right{
+	border-right: 1px;
+	border-style: solid;
+	border-color: red;
+}
+.box7{
+	height: auto;
+    background-color: #F4F1EA;
+    border-style: none;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    height: 214px;
+
+}
+.box7in{
+	margin:auto;
+	max-width: 1050px;
+	justify-content: center;
+
+}
+.box7body{
+	width: 48%;
+	display: inline-block;
+	height: 90%;
+	/*background-color: red;*/
+	text-align:center;
+	text-transform: uppercase;
+	font-family: BrandonText-Medium,Arial,sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.box7body input[type="button"]{
+	border-style: none;
+	width: 90%;
+	height: 50px;
+	margin-top: 30px;
+	text-decoration:none;
+	font-weight:  bold 900;
+	text-rendering: optimizeSpeed;
+
+}
+	.left7{
+		color:#3FB0EB;
+
+	}
+	.right7 input[type="button"]{
+		background-color: #F28005;
+		color:white;
+		font-size: 60%;
+	}
+.right7{
+		color:#f28005;
+
+	}
+	.left7 input[type="button"]{
+		background-color: #3fb0e8;
+		color:white;
+		font-size: 60%;
+	}
+
+.box8{
+	height: auto;
+    background-color: #F4F1EA;
+   
+    width: 100%;
+    margin-top: 100px;
+ 
+    height: 175px;
+    margin-bottom: 163px;
+}
+.box8in{
+	margin:auto;
+	max-width: 1050px;
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.box8in table{
+	margin: 0px;
+	padding: 0px;
+	height: 176px;
+	
+	text-align: left;	
+}
+
+
+.box8body{
+	border-width: 0px 0px 0px 5px;
+	border-style: solid;border-color: white;
+	text-align: left; 
+	width: 262.5px;
+	font-family: BrandonText-Regular, sans-serif;
+    color: #3a3a3a;
+    margin: 0px;
+    height: 100%;
+    font-size: 13px;
+    padding-top: 0px;
+}
+.right8{
+	border-right: 5px;
+	border-style: solid;
+	border-color: white;
+}
