@@ -79,7 +79,14 @@ display: inline-block;
 	
 
 }
+.loginbox{
+	width: 100%;
+	height: 40px;
+	margin: 10px;
+	margin-left: -3px;
+	border-style: none;
 
+}
 
 .create_teacher{
 
@@ -191,18 +198,16 @@ align-items: center;
 	color: #fff;
     font-size: 40px;
     text-align: center;
-    margin: 0px!important;
-    padding: 22px 0px 3px 0px;
+  
     font-family: BrandonText-Regular, Arial, sans-serif;
     white-space: nowrap;
     width: 100%;
-    z-index: 1;
+   
     font-weight: 400;
     line-height: 	46.6px;
     text-align:center;
-    display: inline;
-    justify-content: center;
-    align-items: center;
+
+   
     margin: auto;
 
 }
@@ -211,8 +216,8 @@ height: 323.400px;
 width: 572.400px;
 
 position: relative;
-top: 0px;
-left: -500px;
+top: 37px;
+    left: -303px;
 }
 .video img{
 	height: 100%;
@@ -225,12 +230,15 @@ left: -100px;
 margin: 0px;
 padding: 0px;
 position: relative;
-left: 85px;
+left: 36px;
     bottom: 231px;
 float: right;
 
 }
 .box4{
+	width: 100vw;
+}
+.box4in{
 	width: 100%;
 	max-width: 1050px;
 	margin: auto;
@@ -282,6 +290,25 @@ width: 572.400px;
 	text-align:center;
 	justify-content: center;
 	font-weight: 400;
+}
+.box5right{
+	
+	display: block;
+    text-align: left;
+    height: 361.6px;
+    width: 340px;
+    overflow-y: scroll;
+    float: right;
+    background-color: white;
+    border-bottom: 1px solid #ddd9cc;
+    border-left: 1px solid #ddd9cc;
+    border-top: 1px solid #ddd9cc;
+    
+}
+.box5right img{
+	width: 121px;
+    height: 68px;
+    display: block;
 }
 .box6{
 	margin: 15px;
@@ -413,4 +440,7 @@ width: 572.400px;
 	border-right: 5px;
 	border-style: solid;
 	border-color: white;
+}
+a:hover{
+	color:orange;
 }
